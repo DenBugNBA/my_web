@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Denis Bugaenko">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title> DenBug </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="window-login"> 
+        <img class="exit-button" src="img/exit.png">
+        <div class="enter-title">Вход</div>
+        <form action="" method="POST">
+            <input id="login-form" type="text" placeholder="Почта или Логин" autocomplete="off"> 
+            <input id="password-form" type="password" placeholder="Пароль" autocomplete="off">   
+        </form>
+        <a href="#" id="forget-password">Забыли пароль? Восстановить</a>
+        <br>    
+        <div id="register-enter">
+            <span id="register-button">Регистрация</span>
+            <button id="enter-button">Войти</button>
+        </div>
+    </div>
+    <div class="window-registration"> 
+        <img class="exit-button" src="img/exit.png">
+        <div class="enter-title">Регистрация</div>
+        <form action="" method="POST">
+            <input id="login-form-reg" type="text" placeholder="Почта" autocomplete="off">  
+            <div id="accept-rules">
+                <input type="checkbox" class="custom-checkbox" id="reg-checkbox"> 
+                <label for="reg-checkbox"><a href="#" id="accept-terms">Принять условия соглашения</a>  </label>
+                
+            </div>
+        </form>  
+        <div id="enter-next">
+            <span id="login-button">Вход</span>
+            <button id="next-button">Далее</button>
+        </div>
+    </div>
+    <div class="password-recovery"> 
+        <img class="exit-button" src="img/exit.png">
+        <div class="enter-title">Восстановление пароля</div>
+        <form action="" method="POST">
+            <input id="recovery-form" type="text" placeholder="Почта" autocomplete="off">  
+        </form>  
+        <div id="enter-recovery">
+            <button id="send-button">Отправить</button>
+        </div>
+    </div>
+    <div class="middle-layer"></div>
+    <header>
+        <img src="img/logo.png" alt="Логотип"> 
+        <div id="name">DenBug</div>
+        <div id="login"> <a href="#" id="loginW">Войти</a></div>
+    </header> 
+    <main> 
+       <div class="free"></div>
+       <div class="sideMenu">
+            <div class="sideBlock">
+                <a href="#" class="photos"> Главная </a> 
+            </div>
+            <div class="sideBlock">
+                <details open>    
+                <summary>Мои навыки</summary>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>    
+                    <li>JavaScript</li>
+                </ul>
+                </details>
+            </div>
+            <div class="sideBlock">
+               <a href="photos.html" class="photos"> Фотографии </a> 
+            </div>
+            
+        </div>
+        <div class="centerBlock">
+            Привет! Добро пожаловать на мой сайт! 
+            <img src="img/me.jpg" class="mePhoto">
+        </div>
+    </main>
+    <footer>
+        ©2020 Denis Bugaenko
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
